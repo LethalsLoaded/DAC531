@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 19310186}
   - component: {fileID: 3380234}
   - component: {fileID: 2393040}
+  - component: {fileID: 2078716440}
+  - component: {fileID: 2078716441}
   m_Layer: 0
   m_Name: TreeCreator_Bush_A
   m_TagString: Untagged
@@ -28,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 196434}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 26.963837, y: 0.5, z: -39.54561}
-  m_LocalScale: {x: 1.291, y: 1.291, z: 1.291}
+  m_LocalScale: {x: 0.86521, y: 0.86521, z: 0.86521}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -80,7 +82,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -88,6 +90,33 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2078716440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4329908}
+--- !u!65 &2078716441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9923675, y: 2.1761763, z: 2.8211277}
+  m_Center: {x: -0.06674504, y: 0.8043332, z: 0.02069348}
 --- !u!21 &2179674
 Material:
   serializedVersion: 6
@@ -457,12 +486,12 @@ MonoBehaviour:
     rootSpread: 0.3
     groundOffset: 0
     rootMatrix:
-      e00: -0.71992975
-      e01: -0.694047
+      e00: -0.2775889
+      e01: 0.9607
       e02: 0
       e03: 0
-      e10: 0.694047
-      e11: -0.71992975
+      e10: -0.9607
+      e11: -0.2775889
       e12: 0
       e13: 0
       e20: 0
@@ -1166,12 +1195,12 @@ MonoBehaviour:
     pitch: -0
     rotation: {x: 0, y: 0, z: 0, w: 1}
     matrix:
-      e00: -0.71992975
-      e01: -0.694047
+      e00: -0.2775889
+      e01: 0.9607
       e02: 0
       e03: 0
-      e10: 0.694047
-      e11: -0.71992975
+      e10: -0.9607
+      e11: -0.2775889
       e12: 0
       e13: 0
       e20: 0
