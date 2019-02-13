@@ -10,12 +10,28 @@ public class cartScript : MonoBehaviour
 
     bool moveCart;
 
+
+
     private void Update()
     {
-        if (moveCart == true)
+        //cart moves when player is behind the cart
+        if (moveCart == true) { 
             myCart.transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
-        
+        }
+
+
     }
+
+    // disable the whole script to prevent any movement of the cart
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Object")
+        {
+            gameObject.GetComponent<cartScript>().enabled = false;
+        }
+    }
+
+
 
     private void OnTriggerStay(Collider other)
     {
@@ -23,8 +39,14 @@ public class cartScript : MonoBehaviour
         {
             moveCart = true;
         }
+
+        if (other.tag == "Object")
+        {
+            moveCart = false;
+        }
     }
 
+    // Stop moving the cart when player is not behind the cart
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
