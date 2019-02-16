@@ -8,6 +8,13 @@ public class PlayerController : MonoBehaviour
     public float gravity = 30f;
     public float clampAngle = 80.0f;
     public float mouseSensitivity = 100.0f;
+
+    [Header("Headbobbing")]
+    public bool isHeadbobbingEnabled;
+    public float timer;
+    public float bobbingSpeed;
+    public float bobbingAmount;
+    public float midPoint;
     
     private float _onwardsInput, _sidewaysInput, _mouseHorizontal, _mouseVertical;
     private CharacterController _characterController;
@@ -26,6 +33,8 @@ public class PlayerController : MonoBehaviour
     {
         CheckRewired();
         ProcessInput();
+        if(isHeadbobbingEnabled)
+            Headbobbing();
     }
 
     private void CheckRewired()
@@ -64,5 +73,34 @@ public class PlayerController : MonoBehaviour
         Camera.main.transform.rotation = localRotation;
         transform.rotation = Quaternion.Euler(0.0f, _mouseDirection.y, 0.0f);
 
+    }
+
+    private void Headbobbing()
+    {
+        var waveSlice = 0.0f;
+        if (Mathf.Abs(_onwardsInput) == 0.0f)
+            timer = 0.0f;
+        else
+        {
+            waveSlice = Mathf.Sin(timer);
+            timer += bobbingSpeed;
+            if(timer > Mathf.PI * 2) timer -= Mathf.PI * 2;
+        }
+
+        if (waveSlice != 0)
+        {
+            var translateChange = waveSlice * bobbingAmount;
+            var totalAxes = Mathf.Clamp(Mathf.Abs(_onwardsInput), 0.0f, 1.0f);
+            translateChange = totalAxes * translateChange;
+            var trans = Camera.main.transform.localPosition;
+            trans.y = midPoint + translateChange;
+            Camera.main.transform.localPosition = trans;
+        }
+        else
+        {
+            var trans = Camera.main.transform.localPosition;
+            trans.y = midPoint;
+            Camera.main.transform.localPosition = trans;
+        }
     }
 }
