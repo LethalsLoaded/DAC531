@@ -3,7 +3,13 @@ using Rewired;
 
 public class PlayerController : MonoBehaviour
 {
+#region Variables
+#region Public_Variables
+    /* PUBLIC VARIABLES */
+    [Tooltip("Used for game controls - which characters input will be retrieved.")]
     public uint playerId = 0;
+
+    [Header("Movement Controls")]
     public float speed = 3;
     public float gravity = 30f;
     public float clampAngle = 80.0f;
@@ -11,16 +17,20 @@ public class PlayerController : MonoBehaviour
 
     [Header("Headbobbing")]
     public bool isHeadbobbingEnabled;
-    public float timer;
     public float bobbingSpeed;
     public float bobbingAmount;
     public float midPoint;
-    
-    private float _onwardsInput, _sidewaysInput, _mouseHorizontal, _mouseVertical;
+    /* END OF PUBLIC VARIABLES */
+#endregion
+    #region Private_Variables
+    /* PRIVATE VARIABLES */
+    private float _onwardsInput, _sidewaysInput, _mouseHorizontal, _mouseVertical, timer;
     private CharacterController _characterController;
     private Vector3 _moveDirection, _mouseDirection = Vector3.zero;
-
-    Player _player;
+    private Player _player; // Rewired 'player', based off of their playerId.
+    /* END OF PRIVATE VARIABLES */
+#endregion
+#endregion
 
     void Start()
     {
@@ -28,7 +38,6 @@ public class PlayerController : MonoBehaviour
         _characterController = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         CheckRewired();
@@ -37,6 +46,10 @@ public class PlayerController : MonoBehaviour
             Headbobbing();
     }
 
+    /// <summary>
+    /// Checks rewired addon to retrieve the movement data
+    /// as well as for any button presses such as interaction.
+    /// </summary>
     private void CheckRewired()
     {
         // KEYBOARD VALUES
@@ -49,6 +62,11 @@ public class PlayerController : MonoBehaviour
         Debug.Log(_mouseVertical);
     }
 
+    /// <summary>
+    /// Calculates the movement for mouse, keyboard and joysticks.
+    /// Also calculates the gravity values as CharacterController does not
+    /// come with default gravity.
+    /// </summary>
     private void ProcessInput()
     {
         if(_characterController.isGrounded)
@@ -75,6 +93,11 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Calculates and creates the values that are used
+    /// to make headbobbing effect to make the camera not
+    /// feel as 'floaty'
+    /// </summary>
     private void Headbobbing()
     {
         var waveSlice = 0.0f;
