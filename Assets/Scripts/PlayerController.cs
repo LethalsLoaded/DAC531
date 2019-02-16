@@ -40,6 +40,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if(PixelCrushers.DialogueSystem.DialogueManager.IsConversationActive)
+            return;
         CheckRewired();
         ProcessInput();
         if(isHeadbobbingEnabled)
