@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 92162906f211ae545a7344536c58d90f
+guid: 8f1f8670f9dd97140bedb070cf5cee93
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,7 +11,12 @@ ModelImporter:
     2300000: 16716_Chalk_thin
     3300000: 16716_Chalk_thin
     4300000: 16716_Chalk_thin
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16716_Chalk_thinMat
+    second: {fileID: 2100000, guid: 7961f00ecc62b934ca3314f92464c86e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

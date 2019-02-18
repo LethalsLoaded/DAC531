@@ -3,34 +3,17 @@ using Rewired;
 
 public class PlayerController : MonoBehaviour
 {
-#region Variables
-#region Public_Variables
-    /* PUBLIC VARIABLES */
-    [Tooltip("Used for game controls - which characters input will be retrieved.")]
     public uint playerId = 0;
-
-    [Header("Movement Controls")]
     public float speed = 3;
     public float gravity = 30f;
     public float clampAngle = 80.0f;
     public float mouseSensitivity = 100.0f;
-
-    [Header("Headbobbing")]
-    public bool isHeadbobbingEnabled;
-    public float bobbingSpeed;
-    public float bobbingAmount;
-    public float midPoint;
-    /* END OF PUBLIC VARIABLES */
-#endregion
-    #region Private_Variables
-    /* PRIVATE VARIABLES */
-    private float _onwardsInput, _sidewaysInput, _mouseHorizontal, _mouseVertical, timer;
+    
+    private float _onwardsInput, _sidewaysInput, _mouseHorizontal, _mouseVertical;
     private CharacterController _characterController;
     private Vector3 _moveDirection, _mouseDirection = Vector3.zero;
-    private Player _player; // Rewired 'player', based off of their playerId.
-    /* END OF PRIVATE VARIABLES */
-#endregion
-#endregion
+
+    Player _player;
 
     void Start()
     {
@@ -38,20 +21,13 @@ public class PlayerController : MonoBehaviour
         _characterController = GetComponent<CharacterController>();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if(PixelCrushers.DialogueSystem.DialogueManager.IsConversationActive)
-            return;
         CheckRewired();
         ProcessInput();
-        if(isHeadbobbingEnabled)
-            Headbobbing();
     }
 
-    /// <summary>
-    /// Checks rewired addon to retrieve the movement data
-    /// as well as for any button presses such as interaction.
-    /// </summary>
     private void CheckRewired()
     {
         // KEYBOARD VALUES
@@ -64,11 +40,6 @@ public class PlayerController : MonoBehaviour
         Debug.Log(_mouseVertical);
     }
 
-    /// <summary>
-    /// Calculates the movement for mouse, keyboard and joysticks.
-    /// Also calculates the gravity values as CharacterController does not
-    /// come with default gravity.
-    /// </summary>
     private void ProcessInput()
     {
         if(_characterController.isGrounded)
@@ -93,39 +64,5 @@ public class PlayerController : MonoBehaviour
         Camera.main.transform.rotation = localRotation;
         transform.rotation = Quaternion.Euler(0.0f, _mouseDirection.y, 0.0f);
 
-    }
-
-    /// <summary>
-    /// Calculates and creates the values that are used
-    /// to make headbobbing effect to make the camera not
-    /// feel as 'floaty'
-    /// </summary>
-    private void Headbobbing()
-    {
-        var waveSlice = 0.0f;
-        if (Mathf.Abs(_onwardsInput) == 0.0f)
-            timer = 0.0f;
-        else
-        {
-            waveSlice = Mathf.Sin(timer);
-            timer += bobbingSpeed;
-            if(timer > Mathf.PI * 2) timer -= Mathf.PI * 2;
-        }
-
-        if (waveSlice != 0)
-        {
-            var translateChange = waveSlice * bobbingAmount;
-            var totalAxes = Mathf.Clamp(Mathf.Abs(_onwardsInput), 0.0f, 1.0f);
-            translateChange = totalAxes * translateChange;
-            var trans = Camera.main.transform.localPosition;
-            trans.y = midPoint + translateChange;
-            Camera.main.transform.localPosition = trans;
-        }
-        else
-        {
-            var trans = Camera.main.transform.localPosition;
-            trans.y = midPoint;
-            Camera.main.transform.localPosition = trans;
-        }
     }
 }

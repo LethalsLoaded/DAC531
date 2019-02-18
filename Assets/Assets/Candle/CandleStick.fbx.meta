@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a74e0051798a2aa41b9a5b8e6ab1f598
+guid: 3383936b09afd7849b32c0161c43b10b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -45,7 +45,22 @@ ModelImporter:
     4300012: Cylinder
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001
+    second: {fileID: 2100000, guid: d0a76eab09bd2114b8b6574563fb2ac7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_002
+    second: {fileID: 2100000, guid: 4bbac8b405a7b6340a825fe0923a7141, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_003
+    second: {fileID: 2100000, guid: 7ee6c2b4430b31c4aa34fc8bf081946e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -85,7 +100,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

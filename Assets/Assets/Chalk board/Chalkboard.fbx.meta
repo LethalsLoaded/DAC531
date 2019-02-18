@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2f6ddbb5664504b47ae9b540a98d3b8d
+guid: dd74a6b3bf48b604e954b794f3fd16e6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -12,7 +12,17 @@ ModelImporter:
     4300000: chalkboard
     7400000: Take 001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 7d660e12b4915bd4fa6aad71f4e24a0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: fa7486229117bcf4b8aefb70f48352fb, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -52,7 +62,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -74,7 +84,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
