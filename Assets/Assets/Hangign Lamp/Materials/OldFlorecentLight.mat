@@ -10,7 +10,7 @@ Material:
   m_Name: OldFlorecentLight
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
-  m_LightmapFlags: 2
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: e4a2e758d749cd74fb08970dffe8d808, type: 3}
+        m_Texture: {fileID: 2800000, guid: c1a0414dc85ec4646815ae4fb8540007, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -36,19 +36,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 4e580521f8ff9e144b6067bb9f7ac707, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4bb686afb2370fb45a11f0299a6d29a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 846e69c36c7f6c04ba2e5af48e13cd80, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6393fd676ca839b4f85b6bc73e176044, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: e0386703c13b5004bac1986da7b46619, type: 3}
+        m_Texture: {fileID: 2800000, guid: b9639f866d1990e48af28e39098fa236, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: aa7fff19d2488da4bab98092e440104a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1476159546759f24ea2a6b61863bb9f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -74,4 +74,4 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 2.9960787, g: 2.9960787, b: 2.9960787, a: 1}
+    - _EmissionColor: {r: 2.9960794, g: 2.9960794, b: 2.9960794, a: 1}

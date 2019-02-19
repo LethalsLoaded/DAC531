@@ -527,10 +527,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (41)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -546,6 +542,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (41)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -586,10 +586,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (46)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -605,6 +601,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (46)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -825,10 +825,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 936038929}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.628976
@@ -876,6 +872,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.45976916
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -1773,10 +1773,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (47)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -1792,6 +1788,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (47)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -1835,10 +1835,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (48)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -1854,6 +1850,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (48)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -5760,10 +5760,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (28)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -5779,6 +5775,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (28)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -6833,10 +6833,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (38)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -6852,6 +6848,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (38)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -8218,10 +8218,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 936038929}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.628992
@@ -8265,6 +8261,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -9423,10 +9423,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (50)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -9442,6 +9438,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (50)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -10341,10 +10341,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 936038929}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.628976
@@ -10392,6 +10388,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.45976916
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -12145,10 +12145,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (49)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -12164,6 +12160,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (49)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -13157,10 +13157,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (36)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -13176,6 +13172,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (36)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -13470,22 +13470,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.058578465
-      objectReference: {fileID: 0}
-    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.027975658
-      objectReference: {fileID: 0}
-    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.10927939
-      objectReference: {fileID: 0}
-    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.015806599
-      objectReference: {fileID: 0}
     - target: {fileID: 400150, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13542,6 +13526,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2949996
       objectReference: {fileID: 0}
+    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.058578465
+      objectReference: {fileID: 0}
+    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.027975658
+      objectReference: {fileID: 0}
+    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.10927939
+      objectReference: {fileID: 0}
+    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015806599
+      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
       propertyPath: m_Controller
       value: 
@@ -13555,10 +13555,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 159922914}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.1739917
@@ -13606,6 +13602,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0313855
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -13822,22 +13822,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.058578465
-      objectReference: {fileID: 0}
-    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.027975658
-      objectReference: {fileID: 0}
-    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.10927939
-      objectReference: {fileID: 0}
-    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.015806599
-      objectReference: {fileID: 0}
     - target: {fileID: 400150, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13893,6 +13877,22 @@ PrefabInstance:
     - target: {fileID: 400150, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2949996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.058578465
+      objectReference: {fileID: 0}
+    - target: {fileID: 400090, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.027975658
+      objectReference: {fileID: 0}
+    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.10927939
+      objectReference: {fileID: 0}
+    - target: {fileID: 400140, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015806599
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: c2bbc423c0652cc4692ef610ba3889e8, type: 3}
       propertyPath: m_Controller
@@ -14369,10 +14369,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (52)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -14388,6 +14384,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (52)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -14485,10 +14485,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (54)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -14504,6 +14500,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (54)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -14894,10 +14894,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 936038929}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.628993
@@ -14941,6 +14937,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -17207,6 +17207,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 174376, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
+      propertyPath: m_Name
+      value: Prop_Clock_A
+      objectReference: {fileID: 0}
     - target: {fileID: 481948, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.675154
@@ -17250,10 +17254,6 @@ PrefabInstance:
     - target: {fileID: 481948, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 174376, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
-      propertyPath: m_Name
-      value: Prop_Clock_A
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
@@ -17702,10 +17702,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (53)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -17721,6 +17717,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (53)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -18117,7 +18117,7 @@ PrefabInstance:
     - target: {fileID: 504496268574075535, guid: df9dfaa7ed15d0e4686083006054a020,
         type: 3}
       propertyPath: m_Name
-      value: MediumRoom
+      value: Room B
       objectReference: {fileID: 0}
     - target: {fileID: 504496268574075534, guid: df9dfaa7ed15d0e4686083006054a020,
         type: 3}
@@ -18177,12 +18177,12 @@ PrefabInstance:
     - target: {fileID: 3684960575119822155, guid: df9dfaa7ed15d0e4686083006054a020,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6629816782004420248, guid: df9dfaa7ed15d0e4686083006054a020,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df9dfaa7ed15d0e4686083006054a020, type: 3}
@@ -18472,10 +18472,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (40)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -18491,6 +18487,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (40)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -19312,10 +19312,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 159922914}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8260052
@@ -19363,6 +19359,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0313853
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -20039,10 +20039,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (51)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -20058,6 +20054,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (51)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -21380,10 +21380,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (42)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -21399,6 +21395,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (42)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -22145,10 +22145,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (55)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -22164,6 +22160,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (55)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -22200,7 +22200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492412, guid: b5c6f1e15b5541a4990e2f0b2715e6be, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 492412, guid: b5c6f1e15b5541a4990e2f0b2715e6be, type: 3}
       propertyPath: m_LocalRotation.x
@@ -22231,6 +22231,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1923533421}
     m_Modifications:
+    - target: {fileID: 174376, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
+      propertyPath: m_Name
+      value: Prop_Clock_A
+      objectReference: {fileID: 0}
     - target: {fileID: 481948, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.4379096
@@ -22286,10 +22290,6 @@ PrefabInstance:
     - target: {fileID: 481948, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.3199999
-      objectReference: {fileID: 0}
-    - target: {fileID: 174376, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
-      propertyPath: m_Name
-      value: Prop_Clock_A
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e627c2e1810cde4897b566ba90fd986, type: 3}
@@ -22474,10 +22474,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 159922914}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1739951
@@ -22525,6 +22521,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0313853
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -23372,10 +23372,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (44)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -23391,6 +23387,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (44)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -23545,10 +23545,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (34)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -23564,6 +23560,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (34)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -24217,10 +24217,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 936038929}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.628977
@@ -24268,6 +24264,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.45976916
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -24602,10 +24602,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 936038929}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.628992
@@ -24649,6 +24645,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -25321,10 +25321,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (45)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -25340,6 +25336,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (45)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -27660,10 +27660,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (27)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -27679,6 +27675,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -29300,10 +29300,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (35)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -29319,6 +29315,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (35)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -29362,10 +29362,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (32)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -29381,6 +29377,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (32)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -29769,10 +29769,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (43)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -29788,6 +29784,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (43)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
@@ -29867,10 +29867,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1289374371}
     m_Modifications:
-    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
-      propertyPath: m_Name
-      value: IndBuilding1_Floor_Mid_A (39)
-      objectReference: {fileID: 0}
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -29886,6 +29882,10 @@ PrefabInstance:
     - target: {fileID: 494626, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.4118
+      objectReference: {fileID: 0}
+    - target: {fileID: 197440, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
+      propertyPath: m_Name
+      value: IndBuilding1_Floor_Mid_A (39)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812c9b36537fa8146bed44183a36cf7a, type: 3}
