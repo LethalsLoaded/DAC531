@@ -7,12 +7,15 @@ public class eventTrigger : MonoBehaviour
 {
     //Add event that plays
     public GameObject myEvent;
+    //To disable movement
     public GameObject myPlayer;
 
     public float eventTimer;
     // event has not occured
     // Idea would be to make this script modular
-    private bool fadeEvent = false;
+    public bool fadeEvent;
+    public bool setActiveEvent;
+    
 
 
     IEnumerator fadeTimer()
@@ -29,10 +32,17 @@ public class eventTrigger : MonoBehaviour
         Destroy(gameObject);
     }
 
+    IEnumerator setActiveEventTimer()
+    {
+        //Wait second
+        yield return new WaitForSeconds(eventTimer);
+        myEvent.SetActive(true);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         #region fadeEvent
-        if (other.tag == "Player" && fadeEvent == false)
+        if (other.tag == "Player" && fadeEvent == true)
         {
             myEvent.GetComponent<Animator>().enabled = true;
             myEvent.GetComponent<Image>().enabled = true;
@@ -41,11 +51,25 @@ public class eventTrigger : MonoBehaviour
             myPlayer.GetComponent<PlayerController>().enabled = false;
 
             //fadeEvent happened
-            fadeEvent = true;
+            fadeEvent = false;
             //Starts coroutine
             StartCoroutine(fadeTimer());
 
         }
         #endregion
+
+        #region objectEnabled
+        if (other.tag == "Player" && setActiveEvent == true)
+        {
+
+            //objectActivation happened
+            setActiveEvent = false;
+            //Starts coroutine
+            StartCoroutine(setActiveEventTimer());
+
+        }
+        #endregion
     }
+
+
 }

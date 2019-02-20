@@ -7,7 +7,6 @@ public class singleEventTrigger : MonoBehaviour
 {
     //Add event that plays
     public GameObject myEvent;
-
     public float eventTimer;
 
 
@@ -17,6 +16,7 @@ public class singleEventTrigger : MonoBehaviour
         //Wait 1 second
         yield return new WaitForSeconds(eventTimer);
     }
+
     private void Start()
     {
         myEvent.SetActive(false);
@@ -27,7 +27,6 @@ public class singleEventTrigger : MonoBehaviour
         #region fadeEvent
         if (other.tag == "Player")
         {
-            Debug.Log("Hi");
             myEvent.SetActive(true);
         }
         #endregion
