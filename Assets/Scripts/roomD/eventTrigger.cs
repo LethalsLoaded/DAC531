@@ -15,6 +15,7 @@ public class eventTrigger : MonoBehaviour
     // Idea would be to make this script modular
     public bool fadeEvent;
     public bool setActiveEvent;
+    public bool setActiveAndDestroy;
     
 
 
@@ -37,6 +38,14 @@ public class eventTrigger : MonoBehaviour
         //Wait second
         yield return new WaitForSeconds(eventTimer);
         myEvent.SetActive(true);
+    }
+
+
+    IEnumerator setActiveAndDestroyEventTimer()
+    {
+        //Wait second
+        yield return new WaitForSeconds(eventTimer);
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -66,6 +75,19 @@ public class eventTrigger : MonoBehaviour
             setActiveEvent = false;
             //Starts coroutine
             StartCoroutine(setActiveEventTimer());
+
+        }
+        #endregion
+
+        #region objectEnabledAndDestroyed
+        if (other.tag == "Player" && setActiveAndDestroy == true)
+        {
+
+            //objectActivation happened
+            myEvent.SetActive(true);
+            setActiveAndDestroy = false;
+            //Starts coroutine
+            StartCoroutine(setActiveAndDestroyEventTimer());
 
         }
         #endregion
