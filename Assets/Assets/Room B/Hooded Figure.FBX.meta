@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: fdd3f59887176c643ba5b8292ca428f0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Circle001
+    100004: FElf_m000_u
+    100006: FElf_m006_m00_ah
+    100008: //RootNode
+    100010: Line005
+    100012: Line013
+    100014: Line014
+    100016: Line015
+    100018: Line016
+    100020: Line017
+    100022: Line018
+    100024: Line019
+    100026: Line020
+    100028: Line022
+    100030: Model001_22_skin_1_0_45_091
+    100032: Model001_22_skin_1_0_45_90
+    100034: Nymph_body
+    100036: Object001
+    100038: Object002
+    100040: Object003
+    100042: Object004
+    100044: objHighelf_F_Face04_Skel
+    100046: objHighelf_F_Hair04_Skel
+    100048: Plane002
+    400000: Box002
+    400002: Circle001
+    400004: FElf_m000_u
+    400006: FElf_m006_m00_ah
+    400008: //RootNode
+    400010: Line005
+    400012: Line013
+    400014: Line014
+    400016: Line015
+    400018: Line016
+    400020: Line017
+    400022: Line018
+    400024: Line019
+    400026: Line020
+    400028: Line022
+    400030: Model001_22_skin_1_0_45_091
+    400032: Model001_22_skin_1_0_45_90
+    400034: Nymph_body
+    400036: Object001
+    400038: Object002
+    400040: Object003
+    400042: Object004
+    400044: objHighelf_F_Face04_Skel
+    400046: objHighelf_F_Hair04_Skel
+    400048: Plane002
+    2100000: 05 - Default
+    2100002: 16 - Default
+    2100004: 15 - Default
+    2300000: Box002
+    2300002: Circle001
+    2300004: FElf_m000_u
+    2300006: Line005
+    2300008: Line013
+    2300010: Line014
+    2300012: Line015
+    2300014: Line016
+    2300016: Line017
+    2300018: Line018
+    2300020: Line019
+    2300022: Line020
+    2300024: Line022
+    2300026: Model001_22_skin_1_0_45_091
+    2300028: Model001_22_skin_1_0_45_90
+    2300030: Nymph_body
+    2300032: Object001
+    2300034: Object002
+    2300036: Object003
+    2300038: Object004
+    2300040: objHighelf_F_Face04_Skel
+    2300042: objHighelf_F_Hair04_Skel
+    2300044: Plane002
+    3300000: Box002
+    3300002: Circle001
+    3300004: FElf_m000_u
+    3300006: Line005
+    3300008: Line013
+    3300010: Line014
+    3300012: Line015
+    3300014: Line016
+    3300016: Line017
+    3300018: Line018
+    3300020: Line019
+    3300022: Line020
+    3300024: Line022
+    3300026: Model001_22_skin_1_0_45_091
+    3300028: Model001_22_skin_1_0_45_90
+    3300030: Nymph_body
+    3300032: Object001
+    3300034: Object002
+    3300036: Object003
+    3300038: Object004
+    3300040: objHighelf_F_Face04_Skel
+    3300042: objHighelf_F_Hair04_Skel
+    3300044: Plane002
+    4300000: Plane002
+    4300002: Line013
+    4300004: Object002
+    4300006: Line020
+    4300008: objHighelf_F_Hair04_Skel
+    4300010: objHighelf_F_Face04_Skel
+    4300012: FElf_m000_u
+    4300014: Nymph_body
+    4300016: Line014
+    4300018: Line005
+    4300020: Line022
+    4300022: Circle001
+    4300024: Line015
+    4300026: Line016
+    4300028: Line017
+    4300030: Line018
+    4300032: Line019
+    4300034: Object001
+    4300036: Object003
+    4300038: Object004
+    4300040: Model001_22_skin_1_0_45_90
+    4300042: Model001_22_skin_1_0_45_091
+    4300044: Box002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
