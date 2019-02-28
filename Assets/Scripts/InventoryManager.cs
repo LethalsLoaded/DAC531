@@ -73,6 +73,9 @@ public class InventoryManager : MonoBehaviour
     public GameObject FindItem(Item itemIn)    
         =>  _inventoryItems.FirstOrDefault(x=>x.itemName == itemIn.itemName).inventorySlot;
 
+    public GameObject FindItem(string itemIn)    
+        =>  _inventoryItems.FirstOrDefault(x=>x.itemName == itemIn).inventorySlot;
+
     // Returns item by the name
     public Item GetItemByName(string nameIn)
         => gameItems.FirstOrDefault(x=>x.itemName == nameIn);
@@ -83,6 +86,7 @@ public class InventoryManager : MonoBehaviour
 
     public void SpawnItem(Item itemIn)
     {
+        if(!itemIn.canSpawnItem) return;
         if(objectHoldTransform.transform.childCount == 1)
         {
             objectHoldTransform.transform.GetChild(0).parent = null;

@@ -9,5 +9,6 @@ public class Item
     public Sprite itemImage;
     public string itemDescription = "Item description";
     public GameObject inventorySlot;
+    public bool canSpawnItem = false;
     public GameObject itemPrefab;
 }
