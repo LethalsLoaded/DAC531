@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 _moveDirection, _mouseDirection = Vector3.zero;
 
     Player _player;
-
+    
     void Start()
     {
         _player = ReInput.players.GetPlayer((int)playerId);
@@ -116,4 +116,11 @@ public class PlayerController : MonoBehaviour
         if(turnPanelOff)
             pauseMenuUi.SetActive(false);
     }
+
+    public void ChangeHealth(int amount)    
+        => playerStats.health += amount;
+    
+
+    public void ChangeSanity(int amount)    
+        => playerStats.sanity += amount;
 }
