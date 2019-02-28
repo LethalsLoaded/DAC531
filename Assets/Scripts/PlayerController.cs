@@ -13,6 +13,9 @@ using Rewired;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public GameObject pauseMenuUi;
+
     public uint playerId = 0;
     public PlayerStats playerStats;
     public float speed = 3;
@@ -98,5 +101,19 @@ public class PlayerController : MonoBehaviour
                 interactObject.UseItem();
             }
         }
+    }
+
+    public void PauseGame(bool turnPanelOn = true)
+    {
+        Time.timeScale = 0;
+        if(turnPanelOn)
+            pauseMenuUi.SetActive(true);
+    }
+
+    public void UnPauseGame(bool turnPanelOff = true)
+    {
+        Time.timeScale = 1;
+        if(turnPanelOff)
+            pauseMenuUi.SetActive(false);
     }
 }
