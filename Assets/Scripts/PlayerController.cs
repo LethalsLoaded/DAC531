@@ -1,15 +1,28 @@
 ﻿using UnityEngine;
 using Rewired;
 
+/*
+* Statistics for player character.
+*/
+[System.Serializable]
+    public struct PlayerStats
+    {
+        public int health, sanity;
+        public int strength, agility, inteligence, willpower, perception, charisma;
+    };
+
 public class PlayerController : MonoBehaviour
 {
     public uint playerId = 0;
+    public PlayerStats playerStats;
     public float speed = 3;
     public float gravity = 30f;
     public float clampAngle = 80.0f;
     public float mouseSensitivity = 100.0f;
-    
+    public float interactionRayLength = 2.0f;
+
     private float _onwardsInput, _sidewaysInput, _mouseHorizontal, _mouseVertical;
+    private bool _isInteracting = false, _hasInteracted = false;
     private CharacterController _characterController;
     private Vector3 _moveDirection, _mouseDirection = Vector3.zero;
 
@@ -37,32 +50,53 @@ public class PlayerController : MonoBehaviour
         // MOUSE VALUES
         _mouseVertical = _player.GetAxis("Mouse Horizontal");
         _mouseHorizontal = _player.GetAxis("Mouse Vertical");
-        Debug.Log(_mouseVertical);
+
+        _isInteracting = _player.GetButton("Interact");
     }
 
     private void ProcessInput()
     {
-        if(_characterController.isGrounded)
+        if (_characterController.isGrounded)
         {
             _moveDirection = new Vector3(_sidewaysInput, 0.0f, _onwardsInput);
             _moveDirection = transform.TransformDirection(_moveDirection);
-
             _moveDirection *= speed;
         }
 
         _moveDirection.y -= gravity * Time.deltaTime;
 
-        
+
         _characterController.Move(_moveDirection * Time.deltaTime);
 
         // MOUSE ROTATION
         _mouseDirection.x += _mouseHorizontal * mouseSensitivity * Time.deltaTime;
         _mouseDirection.y += _mouseVertical * mouseSensitivity * Time.deltaTime;
         _mouseDirection.x = Mathf.Clamp(_mouseDirection.x, -clampAngle, clampAngle);
-        Debug.Log(_mouseDirection);
         var localRotation = Quaternion.Euler(_mouseDirection.x, _mouseDirection.y, 0.0f);
         Camera.main.transform.rotation = localRotation;
         transform.rotation = Quaternion.Euler(0.0f, _mouseDirection.y, 0.0f);
 
+        // PROCESS INTERACTION
+        if (_isInteracting && !_hasInteracted)
+            ProcessInteraction();
+        else if (!_isInteracting && _hasInteracted)
+            _hasInteracted = false;
+    }
+
+    private void ProcessInteraction()
+    {
+        _hasInteracted = true;
+        RaycastHit hit;
+        Vector3 dir = Camera.main.transform.forward;
+        Debug.DrawRay(Camera.main.transform.position, dir * interactionRayLength, Color.green);
+        if (Physics.Raycast(Camera.main.transform.position, dir, out hit, interactionRayLength))
+        {
+            if (hit.collider.gameObject.GetComponent<InteractiveObject>() != null)
+            {
+                var interactObject = hit.collider.gameObject.GetComponent<InteractiveObject>();
+                if(!interactObject.canInteract) return;
+                interactObject.UseItem();
+            }
+        }
     }
 }
