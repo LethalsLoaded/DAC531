@@ -20,6 +20,7 @@ namespace AdvancedDissolve_Example
 
             material = mRenderer.material;
 
+            // random value 0-1
             offset = Random.value;
             speed = Random.Range(0.1f, 0.2f);
         }
