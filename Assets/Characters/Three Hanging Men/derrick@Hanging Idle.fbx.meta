@@ -159,6 +159,16 @@ ModelImporter:
     13700002: Mesh 1
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face_Police_Zombie_MAT
+    second: {fileID: 2100000, guid: a4b3342f12246674fa38c5f6658357bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Police_Zombie_MAT
+    second: {fileID: 2100000, guid: 9cc1bbae5636c5c4e86a89958bb65d28, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Police Zombie_diffuse
