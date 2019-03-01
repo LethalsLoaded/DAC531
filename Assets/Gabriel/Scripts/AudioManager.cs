@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-using System;
+using System.Linq;
+
 [System.Serializable]
 public class AudioManager : MonoBehaviour {
 
-    public Sounds[] sounds;
+    public List<Sounds> sounds = new List<Sounds>();
     // Use this for initialization
     private void Awake()
     {
@@ -21,9 +22,6 @@ public class AudioManager : MonoBehaviour {
         }
     }
 
-    public void Play(string name)
-    {
-        Array.Find(sounds, sounds => sounds.name == name).source.Play();
-        
-    }
+    public void Play(string nameIn)    
+        => sounds.FirstOrDefault(x=>x.name == nameIn).source.Play();
 }

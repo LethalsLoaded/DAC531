@@ -25,12 +25,12 @@ public class PlayerController : MonoBehaviour
     public float interactionRayLength = 2.0f;
 
     private float _onwardsInput, _sidewaysInput, _mouseHorizontal, _mouseVertical;
-    private bool _isInteracting = false, _hasInteracted = false;
+    private bool _isInteracting = false, _hasInteracted = false, _inventoryButton = false, _hasInventory = false, _pauseButton = false, _hasPause = false;
     private CharacterController _characterController;
     private Vector3 _moveDirection, _mouseDirection = Vector3.zero;
 
     Player _player;
-    
+
     void Start()
     {
         _player = ReInput.players.GetPlayer((int)playerId);
@@ -47,14 +47,17 @@ public class PlayerController : MonoBehaviour
     private void CheckRewired()
     {
         // KEYBOARD VALUES
-        _onwardsInput = _player.GetAxis("Move_Onwards");
-        _sidewaysInput = _player.GetAxis("Move_Sideways");
+        _onwardsInput    =  _player.GetAxis("Move_Onwards");
+        _sidewaysInput   =  _player.GetAxis("Move_Sideways");
 
         // MOUSE VALUES
-        _mouseVertical = _player.GetAxis("Mouse Horizontal");
-        _mouseHorizontal = _player.GetAxis("Mouse Vertical");
+        _mouseVertical   =  _player.GetAxis("Mouse Horizontal");
+        _mouseHorizontal =  _player.GetAxis("Mouse Vertical");
 
-        _isInteracting = _player.GetButton("Interact");
+        // MISC
+        _isInteracting   =  _player.GetButton("Interact");
+        _pauseButton     =  _player.GetButtonDown("Pause");
+        _inventoryButton =  _player.GetButtonDown("Inventory");
     }
 
     private void ProcessInput()
