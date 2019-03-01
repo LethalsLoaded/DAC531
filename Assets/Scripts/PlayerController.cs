@@ -14,7 +14,7 @@ using Rewired;
 public class PlayerController : MonoBehaviour
 {
 
-    public GameObject pauseMenuUi;
+    public GameObject pauseMenuUi, inventoryMenuUi;
 
     public uint playerId = 0;
     public PlayerStats playerStats;
@@ -87,6 +87,19 @@ public class PlayerController : MonoBehaviour
             ProcessInteraction();
         else if (!_isInteracting && _hasInteracted)
             _hasInteracted = false;
+
+        // PROCESS UI TRIGGERS
+        if(_pauseButton)
+        {
+            if(pauseMenuUi.activeSelf) UnPauseGame();
+            else PauseGame();
+        }
+
+        if(_inventoryButton)
+        {
+            if(inventoryMenuUi.activeSelf) UnPauseGame();
+            else PauseGame();
+        }
     }
 
     private void ProcessInteraction()

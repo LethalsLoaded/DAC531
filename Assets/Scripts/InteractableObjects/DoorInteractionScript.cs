@@ -5,8 +5,11 @@ using UnityEngine;
 public class DoorInteractionScript : InteractiveObject
 {
     public AnimationClip doorAnimation;
+    bool isOpen = false;
     public override void UseItem()
     {
-        // play the kurwa animation
+        if(isOpen) return;
+        transform.Rotate(new Vector3(0.0f, -90, 0.0f));
+        isOpen = true;
     }
 }
