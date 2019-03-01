@@ -1,0 +1,30 @@
+How to set Room A
+
+	1. Place Mirrors
+	2. Place X mark and a transparent trigger cube over it
+	3. Set Trigger's tag as "Trigger"
+	4. Check the controller for Axe object (child of X mark object)
+	5. OnTriggerEnter start the sound of releasing axe
+	6. Make the Axe visible after 1 sec and animation plays automatically 
+	7. Play Landed Axe sound after 0.3f seconds
+
+Room A done.
+
+How to set Room F
+
+	1. Basically just drag a tile floor on the top on the actual floor and scale it a down a little
+
+Room F done. xD
+
+Animations :
+1 Walk
+2 Run
+3 Fear
+4 Die
+5 Push
+6 Close Door
+7 Open Door (or other way around)
+8 Push into a Door
+9 Dodge Axe
+
+More animation are coming soon!
