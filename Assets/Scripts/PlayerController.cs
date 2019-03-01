@@ -13,6 +13,7 @@ using Rewired;
 
 public class PlayerController : MonoBehaviour
 {
+    public PlayerController instance;
 
     public GameObject pauseMenuUi, inventoryMenuUi;
 
@@ -33,9 +34,21 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+            Destroy(gameObject);
+
         _player = ReInput.players.GetPlayer((int)playerId);
         _characterController = GetComponent<CharacterController>();
     }
+
+    public void UpdatePosition()    
+        => transform.position = GameObject.Find("LevelChangePoint").transform.position;
+    
 
     // Update is called once per frame
     void Update()
