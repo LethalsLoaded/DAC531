@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelDoorInteractionScript : InteractiveObject
 {
-    public string nextLevelname;
-   public override void UseItem()
-   {
-       SceneManager.LoadScene(nextLevelname);
-       GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().UpdatePosition();
-   }
+    public int nextLevelIndex;
+    public override void UseItem()
+    {
+        if (!canInteract) return;
+        SceneManager.LoadScene(nextLevelIndex);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().UpdatePosition();
+    }
 }

@@ -13,7 +13,7 @@ using Rewired;
 
 public class PlayerController : MonoBehaviour
 {
-    public PlayerController instance;
+    public static PlayerController instance;
 
     public GameObject pauseMenuUi, inventoryMenuUi;
 
