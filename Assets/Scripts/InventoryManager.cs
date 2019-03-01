@@ -47,6 +47,9 @@ public class InventoryManager : MonoBehaviour
         itemIn.inventorySlot = slot;
     }
 
+    public void AddItem(string nameIn)
+        => AddItem(GetItemByName(nameIn));
+
     // Removes item from the inventory by Sprite
     public void RemoveItemBySprite(Item itemIn)
     {
